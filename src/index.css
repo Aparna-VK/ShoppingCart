@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  line-height: 30px;
+}
+
+h2{
+    color:grey;
+    text-align: center;
+
+}
+
+button {
+  float: right;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: ivory;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+table { 
+  margin-top: 80px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: system-ui;
+  color: dark red;
+}
+
+th, td  {
+  text-align: left;
+  padding: 8px;
+  height: 50px; 
+}
+
+tr:nth-child(even){background-color:#008cba}
+
+span{
+  float: right;
+  color: grey;
+  font-weight: bold;
+  padding-right: 45%;
+}
