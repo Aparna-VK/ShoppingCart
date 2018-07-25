@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import React from 'react';
 import './App.css';
 import ReactDOM from "react-dom";
-
 
 /* List of products */
 const products = [
@@ -14,8 +13,7 @@ const products = [
   { id: 6, name: "TOSHIBA", price: 9787.,count:0 }
 ];
  
-//flag
-var inCart=false;
+//variable declaration
 var totalPrice=0;
 var totalCount=0;
 
@@ -114,7 +112,7 @@ const CartList = () =>(
 /*Root react component App */
 const App = () => (
   <div >
-    <img src=""></img>
+
     <button className="goToCart" onClick={goToCart}>
        {`Cart(${totalCount})`}
     </button>
@@ -123,5 +121,5 @@ const App = () => (
 );
 
 /*Function to render components */
-renderApp();
-export default App;
+
+export default renderApp;
